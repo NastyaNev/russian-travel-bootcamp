@@ -40,8 +40,8 @@
 
 .header__lang-link {
     text-decoration: none;
-    color: #FFFFFF;
     display: flex;
+    color: #FFFFFF;
     justify-content: center;
     align-items: center;
     width: 30px;
