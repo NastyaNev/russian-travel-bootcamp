@@ -52,6 +52,14 @@
     line-height: 28px;
 }
 
+.header__lang-link:hover {
+    text-decoration: underline;
+}
+
+.header__lang-link:focus {
+    text-decoration: underline;
+}
+
 .lead {
     display: flex;
     flex-direction: column;
