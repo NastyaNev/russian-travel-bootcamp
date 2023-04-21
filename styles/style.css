@@ -22,10 +22,12 @@
      /*outline: 1px red solid;*/
 }
 
-.header__logo  {
+.header__logo {
     background-image: url("../images/logo.svg");
     height: 52px;
     width: 176px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .header__lang-links {
@@ -187,8 +189,10 @@
 .cards__place {
     display: grid;
     margin: 0 0 80px 0;
-    grid-template-columns: minmax(340px, 440px) 1fr;
-    grid-template-rows: minmax(1fr, 440px) 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 440px));
+    grid-template-rows: repeat(auto-fit, minmax(1fr, 440px));
+    /*grid-template-columns: minmax(340px, 440px) 1fr;*/
+    /*grid-template-rows: minmax(1fr, 440px) 1fr;*/
     gap: 48px 32px;
     grid-template-areas:
         "cards__title cards__website"
@@ -413,8 +417,10 @@
 
     .cards__place {
         margin-bottom: 73px;
-        grid-template-columns: minmax(320px, 340px) 1fr;
-        grid-template-rows: minmax(1fr, 340px) 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 340px));
+        grid-template-rows: repeat(auto-fit, minmax(1fr, 340px));
+        /*grid-template-columns: minmax(320px, 340px) 1fr;
+        grid-template-rows: minmax(1fr, 340px) 1fr;*/
         gap: 48px 28px;
     }
 
@@ -447,9 +453,164 @@
     .cover__title {
         margin-top: 115px;
     }
+}
 
+@media (max-width:320px) {
+    .page {
+        width: 320px;
+    }
 
-    
+    .root {
+        width: calc(100% - 32px);
+    }
 
+    .header {
+        padding-top: 16px;
+        /*outline: 1px red solid;*/
+    }
+
+    .header__logo {
+        height: 42px;
+        width: 142px;
+    }
+
+    .header__lang-links {
+        align-items: center;
+    }
+
+    .header__lang-link {
+        width: 22px;
+        height: 20px;
+        font-size: 18px;
+        align-items: center;
+        line-height: 20px;
+    }
+
+    .content {
+        margin-top: 64px;
+    }
+
+    .lead {
+        margin-top: 48px;
+    }
+
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 16px;
+        width: 288px;
+        height:  88px;
+    }
+
+    .lead__subtitle {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 40px;
+        width: 288px;
+        height:  40px;
+    }
+  
+    .lead__image {
+        width: 320px;
+        height: 200px;
+    }
+
+    .intro {
+        width: 288px;
+    }
+
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .intro__text {
+        margin-bottom: 34px;
+    }
+
+    .photo-grid {
+        gap: 16px;
+        grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(216px, 1fr));
+        gap: 12px;
+    }
+
+    .cards {
+        
+    }
+
+    .cards__place {
+        margin-bottom: 50px;
+        grid-template-columns: repeat(auto-fit, minmax(288px, 320px));
+        grid-template-rows: repeat(auto-fit, minmax(1fr, 320px));
+        grid-template-areas:
+            "cards__title"
+            "cards__website"
+            "cards__image"
+            "cards__text";
+        gap: 32px 0;
+    }
+
+    .cards__title {
+        font-size: 32px;
+        line-height: 32px;
+        width: 288px;
+        letter-spacing: 0;
+    }
+
+    .cards__image {
+        margin-left: -16px;
+        width: 320px;
+    }
+
+    .cards__website {
+        width: 288px;
+    }
+
+    .cover {
+        margin-top: 66px;
+        margin-left: -16px;
+    }
+
+    .cover__link {
+        width: 320px;
+        height: 200px;
+        line-height: 23px;
+    }
+
+    .cover__title {
+        margin-top: 33px;
+        font-size: 32px;
+        line-height: 35px;
+        width: 288px;
+    }
+
+    .cover__subtitle {
+        margin-top: 16px;
+        font-size: 14px;
+        line-height: 16px;
+        width: 288px;
+    }
+
+    .footer__columns {
+        flex-direction: column;
+        align-items: self-start;
+    }
+
+    .footer__menu-links {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .footer__menu-link {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .footer__author {
+        margin-top: 48px;
+        line-height: 14px;
+    }
 
 }
