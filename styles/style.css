@@ -298,7 +298,7 @@
 
 .cover__link:hover::before {
     opacity: 0.8;
-  }
+}
 
 .cover__title {
     margin: 195px auto 0 auto;
