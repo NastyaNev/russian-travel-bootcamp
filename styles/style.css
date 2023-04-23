@@ -161,6 +161,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, 300px);
     gap: 14px;
+    max-width: 1280px;
     /*outline: 1px red solid;*/
 }
 
@@ -367,7 +368,91 @@
      /*outline: 1px red solid;*/
 }
 
-@media (max-width:768px) {
+/*@media (min-width: 1024px) and (max-width: 1280px) {
+    .page {
+        width: 1280px;
+    }
+
+    .root {
+        width: calc(100% - 296px);
+    }
+
+    .header {
+        margin-left: -100px;
+        width: calc(100% - 96px);
+    }
+
+    .lead {
+        margin-top: 56px;
+    }
+
+    .lead__subtitle {
+        margin-bottom: 64px;
+    }
+
+    .lead__image {
+        width: 984px;
+        height: 615px;
+    }
+
+    .intro {
+        margin-right: 442px;
+    }
+
+    .photo-grid {
+        gap: 16px;
+        margin-left: -100px;
+        width: calc(100vw - 96px);
+        grid-template-columns: repeat(auto-fit, 284px);
+    }
+
+    .photo-grid__item {
+        
+    }
+
+    .cards {
+        
+    }
+
+    .cards__place {
+        grid-template-columns: 460px 1fr;
+        gap: 48px 40px;
+    }
+
+    .cards__website {
+        
+    }
+
+    .cards__image {
+        
+    }
+    
+    .cover {
+        margin-left: -100px;
+    }
+
+    .cover__link {
+        width: 1184px;
+        height: 740px;
+        line-height: 23px;
+    }
+
+    .cover__title {
+        margin-top: 245px;
+        width: 560px;
+    }
+
+    .cover__subtitle {
+        width: 360px;
+    }
+
+    .footer {
+        margin-left: -100px;
+        width: calc(100vw - 96px);        
+    }   
+}*/
+
+@media (max-width: 768px) {
     .page {
         width: 768px;
     }
@@ -443,7 +528,7 @@
     }
 }
 
-@media (max-width:320px) {
+@media (max-width: 320px) {
     .page {
         width: 320px;
     }
@@ -454,6 +539,7 @@
 
     .header {
         padding-top: 16px;
+        align-items: flex-end;
         /*outline: 1px red solid;*/
     }
 
@@ -463,12 +549,11 @@
     }
 
     .header__lang-links {
-        align-items: center;
+        
     }
 
     .header__lang-link {
         width: 22px;
-        height: 20px;
         font-size: 18px;
         align-items: center;
         line-height: 20px;
@@ -511,10 +596,13 @@
     .intro__title {
         font-size: 32px;
         line-height: 35px;
+        /*не заданное  значение. только для переноса "не"*/
+        width: 250px;
     }
 
     .intro__text {
         margin-bottom: 34px;
+        line-height: 26px;
     }
 
     .photo-grid {
@@ -550,6 +638,10 @@
 
     .cards__website {
         
+    }
+
+    .cards__url-heading {
+        line-height: 19px;
     }
 
     .cover {
@@ -598,86 +690,3 @@
     }
 }
 
-/*@media (max-width:1280px) {
-    .page {
-        width: 1280px;
-    }
-
-    .root {
-        width: calc(100% - 296px);
-    }
-
-    .header {
-        margin-left: -100px;
-        width: calc(100vw - 96px);
-    }
-
-    .lead {
-        margin-top: 56px;
-    }
-
-    .lead__subtitle {
-        margin-bottom: 64px;
-    }
-
-    .lead__image {
-        width: 984px;
-        height: 615px;
-    }
-
-    .intro {
-        margin-right: 442px;
-    }
-
-    .photo-grid {
-        gap: 16px;
-        margin-left: -100px;
-        width: calc(100vw - 96px);
-        grid-template-columns: repeat(auto-fit, 284px);
-    }
-
-    .photo-grid__item {
-        
-    }
-
-    .cards {
-        
-    }
-
-    .cards__place {
-        grid-template-columns: 460px 1fr;
-        gap: 48px 40px;
-    }
-
-    .cards__website {
-        
-    }
-
-    .cards__image {
-        
-    }
-    
-    .cover {
-        margin-left: -100px;
-    }
-
-    .cover__link {
-        width: 1184px;
-        height: 740px;
-        line-height: 23px;
-    }
-
-    .cover__title {
-        margin-top: 245px;
-        width: 560px;
-    }
-
-    .cover__subtitle {
-        width: 360px;
-    }
-
-    .footer {
-        margin-left: -100px;
-        width: calc(100vw - 96px);        
-    }   
-}
