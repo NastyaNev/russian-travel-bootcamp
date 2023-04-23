@@ -1,5 +1,4 @@
 .page {
-    width: 1024px;
     background: #2A2C2F;
     color: #FFFFFF;
     margin: 0 auto;
@@ -9,8 +8,8 @@
 }
 
 .root {
-    width: calc(100% - 96px);
     margin: auto;
+    outline: 1px red solid;
 }
 
 .header {
@@ -19,6 +18,7 @@
     justify-content: space-between;
     padding-top: 28px;
     box-sizing: border-box;
+    margin: auto;
      /*outline: 1px red solid;*/
 }
 
@@ -58,7 +58,7 @@
 }
 
 .content {
-    margin-top: 92px;
+    margin: 92px auto 0 auto;
 }
 
 .lead {
@@ -97,8 +97,6 @@
 }
 
 .lead__image {
-    width: 928px;
-    height: 580px;
     margin: 0px;
      /*outline: 1px red solid;*/
 }
@@ -118,7 +116,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-right: 286px;
     /*margin-top: 92px;*/
     width: 690px;
      /*outline: 1px red solid;*/
@@ -159,9 +156,9 @@
     
 .photo-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 300px);
-    gap: 14px;
+    gap: 16px;
     max-width: 1280px;
+    margin: auto;
     /*outline: 1px red solid;*/
 }
 
@@ -188,8 +185,6 @@
 .cards__place {
     display: grid;
     margin: 0 0 80px 0;
-    grid-template-columns: 440px 1fr;
-    gap: 48px 32px;
 }
 
 .cards__place:last-child {
@@ -262,8 +257,7 @@
 }
 
 .cover {
-    /*margin-top: 92px;*/
-    margin-left: -48px;
+   
 }
 
 .cover__link {
@@ -272,8 +266,6 @@
     background-image: url("../images/cover__to-baykal.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1024px;
-    height: 640px;
     flex-direction: column;
     align-items: center;
     color: white;
@@ -299,7 +291,7 @@
 }
 
 .cover__title {
-    margin: 195px auto 0 auto;
+    margin: 0 auto 0 auto;
     text-align: center;
     font-weight: 900;
     font-size: 72px;
@@ -315,7 +307,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    width: 360px;
+    width: 560px;
     z-index: 1;
      /*outline: 1px red solid;*/
 }
@@ -368,18 +360,23 @@
      /*outline: 1px red solid;*/
 }
 
-@media (max-width: 1280px) {
+@media (min-width: 1279px) {
     .page {
-        width: 1280px;
+        
     }
 
     .root {
-        width: calc(100% - 296px);
+        /*width: calc(100% - 296px);*/
+        width: 1280px;
     }
 
     .header {
-        margin-left: -100px;
+        /*margin-left: -100px;*/
         width: calc(100% - 96px);
+    }
+
+    .content {
+        width: calc(100% - 296px);
     }
 
     .lead {
@@ -397,13 +394,15 @@
 
     .intro {
         margin-right: 442px;
+        margin-left: 148px;
     }
 
     .photo-grid {
         gap: 16px;
-        margin-left: -100px;
         width: calc(100vw - 96px);
         grid-template-columns: repeat(auto-fit, 284px);
+        margin-left: 48px;
+        margin-top: 92px;
     }
 
     .photo-grid__item {
@@ -428,7 +427,7 @@
     }
     
     .cover {
-        margin-left: -100px;
+        margin-left: 48px;
     }
 
     .cover__link {
@@ -447,12 +446,176 @@
     }
 
     .footer {
-        margin-left: -100px;
-        width: calc(100vw - 96px);        
+        margin-left: 48px;
+        width: calc(100% - 96px);        
     }   
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1023px) and (max-width: 1279px) {
+    .page {
+        width: 1024px;
+    }
+    
+    .root {
+        width: calc(100% - 96px);
+    }
+    
+    .header {
+     
+    }
+    
+    .header__logo {
+       
+    }
+    
+    .header__lang-links {
+        
+    }
+    
+    .header__lang-link {
+    
+    }
+    
+    .content {
+        
+    }
+    
+    .lead {
+      
+    }
+    
+    .lead__title {
+       
+    }
+    
+    .lead__subtitle {
+      
+    }
+    
+    .lead__image {
+        width: 928px;
+        height: 580px;
+    }
+    
+    .lead__caption {
+        
+    }
+    
+    .intro {
+        margin-right: 286px;
+    }
+    
+    .intro__title {
+       
+    }
+    
+    .intro__text {
+        
+    }
+    
+    .intro__list {
+    
+    }
+    
+    .intro__list-number {
+        
+    }
+        
+    .photo-grid {
+        grid-template-columns: repeat(auto-fit, 300px);
+        gap: 14px;
+    }
+    
+    .photo-grid__items {
+      
+    }
+    
+    .photo-grid__item {
+       
+    }
+    
+    .cards {
+        
+    }
+    
+    .cards__place {
+        grid-template-columns: 440px 1fr;
+        gap: 48px 32px;
+    }
+    
+    .cards__title {
+        
+    }
+    
+    .cards__image {
+        
+    }
+    
+    .cards__website {
+        
+    }    
+    
+    .cards__url-heading {
+        
+    }
+    
+    .cards__link {
+        
+    }
+    
+       
+    .cards__text {
+        
+    }
+    
+    .cards__paragraph {
+        
+    }
+        
+    .cover {
+        margin-left: -48px;
+    }
+    
+    .cover__link {
+        width: 1024px;
+        height: 640px;
+    }
+    
+    .cover__title {
+        margin-top: 195px;
+    }
+    
+    .cover__subtitle {
+    
+        
+    }
+    
+    .footer {
+    
+    }
+    
+    .footer__columns {
+        
+    }
+    
+    .footer__menu  {
+     
+    }
+    
+    .footer__menu-links {
+      
+    }
+    
+    .footer__menu-link {
+       
+    }
+    
+    .footer__author {
+ 
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
     .page {
         width: 768px;
     }
@@ -508,7 +671,6 @@
 
     .cards__paragraph {
         margin-bottom: 25px;
-        font-weight: 400;
         font-size: 16px;
         line-height: 26.08px;
     }
@@ -528,7 +690,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .page {
         width: 320px;
     }
@@ -643,6 +805,23 @@
     .cards__url-heading {
         line-height: 19px;
     }
+
+    .cards__paragraph {
+        margin-bottom: 25px;
+        font-size: 16px;
+        line-height: 25.8px;
+        letter-spacing: 0.17px;
+    }
+
+    /*.cards__paragraph:first-child {
+        line-height: 25.8px;
+        letter-spacing: 0.17px;
+    }
+
+    .cards__paragraph:last-child {
+        line-height: 25.94px;
+        letter-spacing: 0.1px;
+    }*/
 
     .cover {
         margin-top: 66px;
