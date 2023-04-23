@@ -368,7 +368,7 @@
      /*outline: 1px red solid;*/
 }
 
-/*@media (min-width: 1024px) and (max-width: 1280px) {
+@media (max-width: 1280px) {
     .page {
         width: 1280px;
     }
@@ -450,9 +450,9 @@
         margin-left: -100px;
         width: calc(100vw - 96px);        
     }   
-}*/
+}
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .page {
         width: 768px;
     }
@@ -528,7 +528,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
     .page {
         width: 320px;
     }
