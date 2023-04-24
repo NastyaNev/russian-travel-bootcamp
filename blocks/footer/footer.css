@@ -1,0 +1,11 @@
+.footer {
+    padding-bottom: 24px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 1279px) {
+    .footer {
+        margin-left: 48px;
+        width: calc(100% - 96px);        
+    }  
+}

@@ -1,0 +1,13 @@
+.footer__columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+@media (max-width: 767px) {
+    .footer__columns {
+        flex-direction: column;
+        align-items: self-start;
+    }
+}

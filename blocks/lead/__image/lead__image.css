@@ -1,0 +1,30 @@
+.lead__image {
+    margin: 0px;
+}
+
+@media (min-width: 1279px) {
+    .lead__image {
+        width: 984px;
+        height: 615px;
+    }
+}
+
+@media (min-width: 1023px) and (max-width: 1279px) {
+    .lead__image {
+        width: 928px;
+        height: 580px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    .lead__image {
+        width: 768px;
+        height: 480px;
+    }
+}
+
+@media (max-width: 767px) {
+    .lead__image {
+        width: calc(100% + 32px)
+    }
+}

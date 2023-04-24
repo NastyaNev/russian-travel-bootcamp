@@ -1,0 +1,29 @@
+.content {
+    margin: 92px auto 0 auto;
+}
+
+@media (min-width: 1279px) {
+    .content {
+        width: calc(100% - 296px);
+    }
+}
+
+@media (min-width: 1023px) and (max-width: 1279px) {
+    .content {
+        width: calc(100% - 96px)
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    .content {
+        margin-top: 88px;
+        width: calc(100% - 48px);
+    }
+}
+
+@media (max-width: 767px) {
+    .content {
+        margin-top: 64px;
+        width: calc(100% - 32px);
+    }
+}

@@ -1,0 +1,11 @@
+.cards__image {
+    object-fit: cover;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .cards__image {
+        margin-left: -16px;
+        width: calc(100% + 32px);
+    }
+}
