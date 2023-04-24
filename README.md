@@ -7,7 +7,7 @@
 Что было сделано:
   * Создана разметка сайта в html.
   * Код организован по БЭМ.
-  * Сайт адаптирован под указанные в макете [Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0] "Ссылка на макет в Figma") брейк-пойнты.
+  * Сайт адаптирован под указанные в макете [Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0 "Ссылка на макет в Figma") брейк-пойнты.
   * Изображения были скачаны из Figma.
 
 **Код организован** согласно БЭМ методологии.
