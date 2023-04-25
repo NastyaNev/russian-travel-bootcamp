@@ -1,16 +1,11 @@
 .intro {
     display: flex;
     flex-direction: column;
+    padding-right: calc(442px - 296px/2);
+    box-sizing: border-box;
 }
 
-@media (min-width: 1279px) {
-    .intro {
-        padding-right: calc(442px - 296px/2);
-        box-sizing: border-box;
-    }
-}
-
-@media (min-width: 1023px) and (max-width: 1279px) {
+@media (max-width: 1279px) {
     .intro {
         padding-right: calc(286px - 96px/2);
     }
@@ -19,5 +14,6 @@
 @media (max-width: 767px) {
     .intro {
         width: calc(100% - 32px);
+        padding-right: 0;
     }
 }
