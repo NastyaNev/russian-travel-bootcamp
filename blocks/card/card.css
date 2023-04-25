@@ -1,28 +1,28 @@
-.cards__place {
+.card {
     display: grid;
     margin: 0 0 80px 0;
 }
 
-.cards__place:last-child {
+.card:last-child {
     margin-bottom: 0;
 }
 
 @media (min-width: 1279px) {
-    .cards__place {
+    .card {
         grid-template-columns: 460px 1fr;
         gap: 48px 40px;
     }
 }
 
 @media (min-width: 1023px) and (max-width: 1279px) {
-    .cards__place {
+    .card {
         grid-template-columns: 440px 1fr;
         gap: 48px 32px;
     }
 }
 
 @media (min-width: 767px) and (max-width: 1023px) {
-    .cards__place {
+    .card {
         margin-bottom: 73px;
         grid-template-columns: 340px 1fr;
         gap: 48px 28px;
@@ -30,7 +30,7 @@
 }
 
 @media (max-width: 767px) {
-    .cards__place {
+    .card {
         margin-bottom: 50px;
         grid-template-columns: 100%;
         gap: 32px 0;

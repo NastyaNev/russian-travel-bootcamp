@@ -4,13 +4,13 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    width: 560px;
+    max-width: 560px;
+    width: 100%;
     z-index: 1;
 }
 
 @media (min-width: 1279px) {
     .cover__title {
-        margin-top: 245px;
         width: 560px;
     }
 }

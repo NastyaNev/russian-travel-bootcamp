@@ -1,21 +1,20 @@
-.cards__title {
+.card__title {
     margin: 0;
     font-style:  normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    letter-spacing: 0.8px;
 }
 
 @media (min-width: 767px) and (max-width: 1023px) {
-    .cards__title {
+    .card__title {
         font-size: 42px;
         line-height: 45px;
     }
 }
 
 @media (max-width: 767px) {
-    .cards__title {
+    .card__title {
         font-size: 32px;
         line-height: 32px;
         letter-spacing: 0;

@@ -7,7 +7,6 @@
 
 @media (min-width: 1279px) {
     .photo-grid {
-        gap: 16px;
         width: calc(100vw - 96px);
         grid-template-columns: repeat(auto-fit, 284px);
         margin-top: 92px;
@@ -18,13 +17,11 @@
     .photo-grid {
         grid-template-columns: repeat(auto-fit, 300px);
         gap: 14px;
-        margin-top: 92px;
     }
 }
 
 @media (min-width: 767px) and (max-width: 1023px) {
     .photo-grid {
-        gap: 16px;
         grid-template-columns: repeat(auto-fit, 352px);
         margin-top: 88px;
     }

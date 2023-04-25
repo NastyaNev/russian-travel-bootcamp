@@ -1,27 +1,18 @@
-.cards__paragraph {
+.card__paragraph {
     margin: 0 0 26px 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 29.34px;
 }
 
-.cards__paragraph:last-child {
+.card__paragraph:last-child {
     margin-bottom: 0;
 }
 
 @media (min-width: 767px) and (max-width: 1023px) {
-    .cards__paragraph {
+    .card__paragraph {
         margin-bottom: 25px;
         font-size: 16px;
         line-height: 26.08px;
-    }
-}
-
-@media (max-width: 767px) {
-    .cards__paragraph {
-        margin-bottom: 25px;
-        font-size: 16px;
-        line-height: 25.8px;
-        letter-spacing: 0.17px;
     }
 }
