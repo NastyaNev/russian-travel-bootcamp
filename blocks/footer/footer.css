@@ -1,24 +1,17 @@
 .footer {
     padding-bottom: 24px;
     box-sizing: border-box;
-    /*margin-left: 48px;*/
-    /*width: calc(100% - 96px);*/
-}
-
-@media (max-width: 1279px) {
-    .footer {
-        
-    }
+    width: calc(100% - 96px);
 }
 
 @media (max-width: 1023px) {
     .footer {
-       
+        width: calc(100% - 48px);
     }
 }
 
 @media (max-width: 767px) {
     .footer {
-        margin-top: 64px;
+        width: calc(100% - 32px);
     }
 }
