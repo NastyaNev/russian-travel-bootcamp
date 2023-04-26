@@ -1,7 +1,7 @@
 .lead__image {
     margin: 0px;
     width: 984px;
-        height: 615px;
+    height: 615px;
 }
 
 @media (max-width: 1279px) {
@@ -20,6 +20,7 @@
 
 @media (max-width: 767px) {
     .lead__image {
-        width: 100%;
+        width: 320px;
+        height: 200px;
     }
 }

@@ -3,7 +3,6 @@
     gap: 16px;
     max-width: 1280px;
     margin: auto;
-    width: calc(100vw - 96px);
     grid-template-columns: repeat(auto-fit, 284px);
     margin-top: 92px;
 }
@@ -24,7 +23,7 @@
 
 @media (max-width: 767px) {
     .photo-grid {
-        grid-template-columns: repeat(auto-fit, 100%);
+        grid-template-columns: repeat(auto-fit, 288px);
         gap: 12px;
         margin-top: 64px;
     }

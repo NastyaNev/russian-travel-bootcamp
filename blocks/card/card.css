@@ -27,7 +27,7 @@
 @media (max-width: 767px) {
     .card {
         margin-bottom: 50px;
-        grid-template-columns: 100%;
+        grid-template-columns: 288px;
         gap: 32px 0;
     }
 }

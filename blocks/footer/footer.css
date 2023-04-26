@@ -1,6 +1,25 @@
 .footer {
     padding-bottom: 24px;
     box-sizing: border-box;
-    margin-left: 48px;
-    width: calc(100% - 96px);
+    /*margin-left: 48px;*/
+    /*width: calc(100% - 96px);*/
+    margin: 0 auto;
+}
+
+@media (max-width: 1279px) {
+    .footer {
+        
+    }
+}
+
+@media (max-width: 1023px) {
+    .footer {
+       
+    }
+}
+
+@media (max-width: 767px) {
+    .footer {
+        margin-top: 64px;
+    }
 }

@@ -1,10 +1,11 @@
 .card__image {
     object-fit: cover;
     width: 100%;
+    justify-self: center;
 }
 
 @media (max-width: 767px) {
     .card__image {
-        width: 100%;
+        width: 320px;
     }
 }

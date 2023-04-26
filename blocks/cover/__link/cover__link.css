@@ -7,10 +7,9 @@
     background-position: center;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     color: white;
     text-decoration: none;
-    max-width: 1184px;
+    min-width: 1184px;
     min-height: 740px;
     line-height: 23px;
     z-index: 0;
@@ -34,21 +33,21 @@
 
 @media (max-width: 1279px) {
     .cover__link {
-        max-width: 1024px;
+        min-width: 1024px;
         min-height: 640px;
     }
 }
 
 @media (max-width: 1023px) {
     .cover__link {
-        max-width: 768px;
+        min-width: 768px;
         min-height: 480px;
     }
 }
 
 @media (max-width: 767px) {
     .cover__link {
-        width: 100%;
+        min-width: 320px;
         min-height: 200px;
     }
 }

@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 48px;
+    margin-top: 56px;
 }
 
 @media (max-width: 1279px) {
     .lead {
-        margin-top: 56px;
+        margin-top: 48px;
     }
 }
+
