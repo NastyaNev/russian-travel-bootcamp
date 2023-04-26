@@ -18,6 +18,7 @@
     .photo-grid {
         grid-template-columns: repeat(auto-fit, 352px);
         margin-top: 88px;
+        gap: 16px;
     }
 }
 

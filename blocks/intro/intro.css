@@ -11,9 +11,9 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
     .intro {
-        width: calc(100% - 32px);
         padding-right: 0;
     }
 }
+
