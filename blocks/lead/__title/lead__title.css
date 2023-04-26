@@ -1,12 +1,11 @@
 .lead__title {
-    font-style:  normal;
+    font-style: normal;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
     margin: 0 auto 32px auto;
     max-width: 720px;
     width: 100%;
-    min-height:  200px;
     text-align: center;
 }
 
@@ -15,7 +14,5 @@
         margin-bottom: 16px;
         font-size: 40px;
         line-height: 44px;
-        width: 100%;
-        min-height:  88px;
     }
 }

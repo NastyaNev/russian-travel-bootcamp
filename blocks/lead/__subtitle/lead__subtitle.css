@@ -6,7 +6,6 @@
     margin: 0 auto 64px auto;
     max-width: 640px;
     width: 100%;
-    min-height:  72px;
     text-align: center;
 }
 
@@ -21,6 +20,5 @@
         font-size: 16px;
         line-height: 20px;
         margin-bottom: 40px;
-        min-height: 40px;
     }
 }
