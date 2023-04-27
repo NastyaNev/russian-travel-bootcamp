@@ -6,6 +6,6 @@
 
 @media (max-width: 767px) {
     .card__image {
-        width: 320px;
+        min-width: 320px;
     }
 }

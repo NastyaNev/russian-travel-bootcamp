@@ -7,16 +7,9 @@
     margin: 0 auto;
 }
 
-@media (max-width: 1023px) {
-    .header {
-        width: calc(100% - 48px);
-    }
-}
-
 @media (max-width: 767px) {
     .header {
         padding-top: 16px;
         align-items: flex-end;
-        width: calc(100% - 32px);
     }
 }

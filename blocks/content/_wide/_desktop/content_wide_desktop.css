@@ -1,0 +1,17 @@
+.content_wide_desktop {
+    width: calc(100% - 96px);
+}
+
+@media (max-width: 1023px) {
+    .content_wide_desktop {
+        width: calc(100% - 48px);
+    }
+}
+
+@media (max-width: 767px) {
+    .content_wide_desktop {
+        width: calc(100% - 32px);
+    }
+}
+
+

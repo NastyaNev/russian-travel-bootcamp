@@ -1,17 +1,4 @@
 .footer {
     padding-bottom: 24px;
     box-sizing: border-box;
-    width: calc(100% - 96px);
-}
-
-@media (max-width: 1023px) {
-    .footer {
-        width: calc(100% - 48px);
-    }
-}
-
-@media (max-width: 767px) {
-    .footer {
-        width: calc(100% - 32px);
-    }
 }
