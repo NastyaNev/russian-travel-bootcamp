@@ -2,20 +2,18 @@
     display: grid;
     gap: 16px;
     min-width: calc(100% - 96px);
-    grid-template-columns: repeat(auto-fit, 284px);
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     margin-top: 92px;
 }
 
 @media (max-width: 1279px) {
     .photo-grid {
-        grid-template-columns: repeat(auto-fit, 300px);
         gap: 14px;
     }
 }
 
 @media (max-width: 1023px) {
     .photo-grid {
-        grid-template-columns: repeat(auto-fit, 352px);
         margin-top: 88px;
         gap: 16px;
     }
@@ -23,7 +21,6 @@
 
 @media (max-width: 767px) {
     .photo-grid {
-        grid-template-columns: repeat(auto-fit, 288px);
         gap: 12px;
         margin-top: 64px;
     }
