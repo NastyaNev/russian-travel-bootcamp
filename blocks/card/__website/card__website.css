@@ -3,4 +3,5 @@
     flex-direction: column;
     justify-content: end;
     gap: 12px;
-} 
+    width: calc(100% - 32px);
+}

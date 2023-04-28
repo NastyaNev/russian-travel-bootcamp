@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+    .card__text {
+        width: calc(100% - 32px);
+    }
+}

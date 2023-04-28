@@ -55,5 +55,3 @@
 @import url(../blocks/footer/__menu-links/footer__menu-links.css);
 @import url(../blocks/footer/__menu-link/footer__menu-link.css);
 @import url(../blocks/footer/__author/footer__author.css);
-
-* { outline: 1px solid yellow; }
