@@ -8,10 +8,5 @@
     }
 }
 
-@media (max-width: 767px) {
-    .content_wide_desktop {
-        width: calc(100% - 32px);
-    }
-}
 
 

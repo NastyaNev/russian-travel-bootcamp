@@ -28,7 +28,7 @@
 @media (max-width: 767px) {
     .card {
         margin-bottom: 50px;
-        grid-template-columns: 288px;
+        grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
         gap: 32px 0;
     }
 }
