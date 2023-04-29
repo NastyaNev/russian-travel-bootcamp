@@ -6,11 +6,6 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #AAAAAA;
-}
-
-@media (max-width: 1023px) {
-    .card__url-heading {
-        line-height: 12px;
-    }
+    line-height: 12px;
 }
 
