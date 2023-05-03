@@ -1,4 +1,6 @@
 .lead__image-set {
     margin: 0;
     line-height: 0;
+    display: flex;
+    flex-direction: column;
 }

@@ -1,0 +1,9 @@
+.lead__road  {
+    position: absolute;
+    width: 95%;
+    top: calc((90.21*100%)/615);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto 0 auto;
+}

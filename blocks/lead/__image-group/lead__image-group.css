@@ -1,0 +1,24 @@
+.lead__image-group {
+    margin: 0px;
+    height: 615px;
+    width: 100%;
+    position: relative;
+}
+
+@media (max-width: 1279px) {
+    .lead__image-group {
+        height: 580px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .lead__image-group {
+        height: 480px;
+    }
+}
+
+@media (max-width: 767px) {
+    .lead__image-group {
+        height: 200px;
+    }
+}

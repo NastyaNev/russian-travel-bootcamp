@@ -1,24 +1,4 @@
 .lead__image {
-    margin: 0px;
-    height: 615px;
-    width: 100%;
     object-fit: cover;
-}
-
-@media (max-width: 1279px) {
-    .lead__image {
-        height: 580px;
-    }
-}
-
-@media (max-width: 1023px) {
-    .lead__image {
-        height: 480px;
-    }
-}
-
-@media (max-width: 767px) {
-    .lead__image {
-        height: 200px;
-    }
+    width: 100%;
 }

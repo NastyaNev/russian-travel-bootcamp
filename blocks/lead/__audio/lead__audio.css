@@ -1,13 +1,29 @@
-.lead__audio::-webkit-media-controls-panel  {
-    /*display: none;*/
+.lead__audio {
+    max-width: 150px;
+    /* top: 20px; */
+    /* left: 50px; */
+    /* position: relative; */
+    display: flex;
+    margin: 0 auto 0 auto;
+    opacity: 0.5;
+    position: absolute;
+    top: calc((450*100%)/615);
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.lead__audio::-webkit-media-controls-panel {
+    justify-content: center;
+    padding: 0;    
 }
 
 .lead__audio::-webkit-media-controls-mute-button {
-    /*display: none;*/
+    background-size: cover;
 }
 
 .lead__audio::-webkit-media-controls-play-button {
-    /*display: none;*/
+    display: none;
 }
 
 .lead__audio::-webkit-media-controls-timeline-container {
@@ -15,45 +31,48 @@
 }
 
 .lead__audio::-webkit-media-controls-current-time-display {
-    /*display: none;*/
+    display: none;
 }
 
 .lead__audio::-webkit-media-controls-time-remaining-display {
-    /*display: none;*/
+    display: none;
 }
 
 .lead__audio::-webkit-media-controls-timeline {
-    /*display: none;*/
-}
-
-.lead__audio::-webkit-media-controls-volume-slider-container {
-    /*display: none;*/
-}
-
-.lead__audio::-webkit-media-controls-volume-slider {
-    /*display: none;*/
+    display: none;
+    
 }
 
 .lead__audio::-webkit-media-controls-seek-back-button {
-    /*display: none;*/
+    display: none;
 }
 
 .lead__audio::-webkit-media-controls-seek-forward-button {
-    /*display: none;*/
+    display: none;
 }
 
 .lead__audio::-webkit-media-controls-fullscreen-button {
-    /*display: none;*/
+    display: none;
 }
 
 .lead__audio::-webkit-media-controls-rewind-button  {
-    /*display: none;*/
+    display: none;
 }
 
 .lead__audio::-webkit-media-controls-return-to-realtime-button {
-    /*display: none;*/
+    display: none;
 }
 
 .lead__audio::-webkit-media-controls-toggle-closed-captions-button {
-    /*display: none;*/
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .lead__audio {
+        
+    }
+
+    .lead__audio::-webkit-media-controls-mute-button {
+        background-size: 80%;
+    }
 }

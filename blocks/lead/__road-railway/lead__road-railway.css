@@ -1,0 +1,17 @@
+.lead__road-railway  {
+    position: absolute;
+    width: 90%;
+    top: calc((128.61*100%)/615);
+    left: -14px;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto 0 auto;
+    stroke: red;
+    stroke-width: 2px;
+    stroke-dasharray:  5 20;
+}
+
+path {
+    
+}
+
