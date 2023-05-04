@@ -22,8 +22,21 @@
 @import url(../blocks/lead/__image-set/lead__image-set.css);
 @import url(../blocks/lead/__image-group/lead__image-group.css);
 @import url(../blocks/lead/__image/lead__image.css);
-@import url(../blocks/lead/__road/lead__road.css);
+/* @import url(../blocks/lead/__road/lead__road.css); */
 @import url(../blocks/lead/__road-railway/lead__road-railway.css);
+@import url(../blocks/lead/__cities/lead__cities.css);
+@import url(../blocks/lead/__cities-pskov/lead__cities-pskov.css);
+@import url(../blocks/lead/__cities-vnovgorod/lead__cities-vnovgorod.css);
+@import url(../blocks/lead/__cities-tver/lead__cities-tver.css);
+@import url(../blocks/lead/__cities-yaroslavl/lead__cities-yaroslavl.css);
+@import url(../blocks/lead/__cities-mantyrovo/lead__cities-mantyrovo.css);
+@import url(../blocks/lead/__cities-kotelnich/lead__cities-kotelnich.css);
+@import url(../blocks/lead/__cities-glazov/lead__cities-glazov.css);
+@import url(../blocks/lead/__cities-perm/lead__cities-perm.css);
+@import url(../blocks/lead/__cities-tumen/lead__cities-tumen.css);
+@import url(../blocks/lead/__cities-omsk/lead__cities-omsk.css);
+@import url(../blocks/lead/__cities-krasnoyarsk/lead__cities-krasnoyarsk.css);
+@import url(../blocks/lead/__cities-ulan-ude/lead__cities-ulan-ude.css);
 @import url(../blocks/lead/__audio/lead__audio.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/intro/intro.css);

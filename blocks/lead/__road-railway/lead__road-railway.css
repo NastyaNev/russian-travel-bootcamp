@@ -1,17 +1,24 @@
 .lead__road-railway  {
     position: absolute;
     width: 90%;
-    top: calc((128.61*100%)/615);
-    left: -14px;
+    top: calc((127*100%)/615);
+    left: -15px;
     right: 0;
     bottom: 0;
     margin: 0 auto 0 auto;
-    stroke: red;
+    stroke: rgb(226, 26, 26);
     stroke-width: 2px;
-    stroke-dasharray:  5 20;
-}
-
-path {
+    stroke-dasharray: 5 10;
+    fill: none;
+    stroke-linecap: round;
+    /* stroke-dashoffset: 100px; */
+    /* -webkit-animation: draw 20s; */
+    animation: draw 20s;
     
 }
+
+@keyframes draw {
+    from { stroke-dashoffset: 200px; } 
+    to   { stroke-dashoffset: 500px; } 
+  }
 
