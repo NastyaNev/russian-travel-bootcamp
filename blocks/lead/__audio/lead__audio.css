@@ -1,11 +1,11 @@
 .lead__audio {
-    max-width: 150px;
+    max-width: 120px;
     /* top: 20px; */
     /* left: 50px; */
     /* position: relative; */
     display: flex;
     margin: 0 auto 0 auto;
-    opacity: 0.5;
+    opacity: 0.3;
     position: absolute;
     top: calc((450*100%)/615);
     left: 0;
@@ -39,8 +39,7 @@
 }
 
 .lead__audio::-webkit-media-controls-timeline {
-    display: none;
-    
+    display: none; 
 }
 
 .lead__audio::-webkit-media-controls-seek-back-button {
@@ -69,10 +68,11 @@
 
 @media (max-width: 767px) {
     .lead__audio {
-        
+        height: 20px;
     }
 
     .lead__audio::-webkit-media-controls-mute-button {
-        background-size: 80%;
+        background-size: 50%;
+        
     }
 }

@@ -1,8 +1,7 @@
 .lead__road-railway  {
     position: absolute;
-    width: 90%;
-    top: calc((127*100%)/615);
-    left: -15px;
+    top: 0;
+    left: 0;
     right: 0;
     bottom: 0;
     margin: 0 auto 0 auto;
@@ -22,3 +21,8 @@
     to   { stroke-dashoffset: 500px; } 
   }
 
+  @media (max-width: 767px) {
+    .lead__road-railway {
+        top: 10px;
+    }
+}
