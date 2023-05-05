@@ -1,0 +1,142 @@
+.lead__cities:not(:nth-of-type(3)):not(:nth-of-type(14)) {
+    opacity: 0;
+}
+
+.lead__cities:nth-of-type(4) {
+    animation: appear 1s 1.6s forwards;
+}
+
+.lead__cities:nth-of-type(5) {
+    animation: appear 1s 2.8s forwards;
+}
+
+.lead__cities:nth-of-type(6) {
+    animation: appear 1s 3.1s forwards;
+}
+
+.lead__cities:nth-of-type(7) {
+    animation: appear 1s 4.1s forwards;
+    fill: rgb(133, 134, 134);
+    stroke: rgb(133, 134, 134);
+    stroke-width: 0.5px;
+}
+
+.lead__cities:nth-of-type(8) {
+    animation: appear 1s 4.8s forwards;
+    fill: rgb(133, 134, 134);
+    stroke: rgb(133, 134, 134);
+    stroke-width: 0.5px;
+}
+
+.lead__cities:nth-of-type(9) {
+    animation: appear 1s 6.3s forwards;
+}
+
+.lead__cities:nth-of-type(10) {
+    animation: appear 1s 7s forwards;
+}
+
+.lead__cities:nth-of-type(11) {
+    animation: appear 1s 8s forwards;
+}
+
+.lead__cities:nth-of-type(12) {
+    animation: appear 1s 9.1s forwards;
+}
+
+.lead__cities:nth-of-type(13) {
+    animation: appear 1s 13.3s forwards;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+  }
+
+.lead__cities_ring:nth-of-type(18) {
+    animation: size_color_first 1s 0.1s forwards;
+}
+
+.lead__cities_ring:nth-of-type(16) {
+    animation: color 1s 1.6s forwards;
+}
+
+.lead__cities_ring:nth-of-type(20) {
+    animation: color 1s 2.8s forwards;
+}
+
+.lead__cities_ring:nth-of-type(22) {
+    animation: color 1s 3.1s forwards;
+}
+
+.lead__cities_ring:nth-of-type(24) {
+    animation: color 1s 4.1s forwards;
+}
+
+.lead__cities_ring:nth-of-type(26) {
+    animation: color 1s 4.8s forwards;
+}
+
+.lead__cities_ring:nth-of-type(28) {
+    animation: color 1s 6.3s forwards;
+}
+
+.lead__cities_ring:nth-of-type(30) {
+    animation: color 1s 7s forwards;
+}
+
+.lead__cities_ring:nth-of-type(32) {
+    animation: color 1s 8s forwards;
+}
+
+.lead__cities_ring:nth-of-type(34) {
+    animation: color 1s 9.1s forwards;
+}
+
+.lead__cities_ring:nth-of-type(36) {
+    animation: color 1s 13.3s forwards;
+}
+
+.lead__cities_ring:nth-of-type(38) {
+    animation: size_color_last 1s 18s forwards;
+    
+}
+
+@keyframes size_color_first {
+    from {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        transform-origin: 0;
+        fill: #fff;
+      }
+      to {
+        transform: matrix(1.5, 0, 0, 1.5, 0, 0);
+        transform-origin: 1.5% 50%;
+        fill: rgb(226, 26, 26);
+    }
+}
+
+@keyframes size_color_last {
+    from {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        transform-origin: 96.5% 60%;
+        fill: #fff;
+      }
+      to {
+        transform: matrix(1.5, 0, 0, 1.5, 0, 0);
+        transform-origin: 96% 62%;
+        fill: rgb(226, 26, 26);
+    }
+}
+
+@keyframes color {
+    from {
+        fill: #fff;
+      }
+      to {
+        fill: rgb(226, 26, 26);
+    }
+}

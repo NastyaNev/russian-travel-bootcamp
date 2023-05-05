@@ -1,8 +1,5 @@
 .lead__audio {
-    max-width: 120px;
-    /* top: 20px; */
-    /* left: 50px; */
-    /* position: relative; */
+    width: 150px;
     display: flex;
     margin: 0 auto 0 auto;
     opacity: 0.3;
@@ -19,11 +16,11 @@
 }
 
 .lead__audio::-webkit-media-controls-mute-button {
-    background-size: cover;
+    background-size: 90%;
 }
 
 .lead__audio::-webkit-media-controls-play-button {
-    display: none;
+    background-size: 100%;
 }
 
 .lead__audio::-webkit-media-controls-timeline-container {
@@ -68,11 +65,11 @@
 
 @media (max-width: 767px) {
     .lead__audio {
-        height: 20px;
+        height: 30px;
     }
 
     .lead__audio::-webkit-media-controls-mute-button {
-        background-size: 50%;
-        
+        background-size: 80%;
     }
 }
+

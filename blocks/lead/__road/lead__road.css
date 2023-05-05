@@ -1,29 +1,9 @@
 .lead__road  {
     position: absolute;
-    width: 100%;
-    /* height: 262.99px; */
+    width: 95%;
     top: calc((90*100%)/615);
     left: 0;
     right: 0;
     bottom: 0;
     margin: 0 auto 0 auto;
-}
-
-@media (max-width: 1279px) {
-    .lead__road {
-        width: 95%;
-        top: calc((90*95%)/615);
-    }
-}
-
-@media (max-width: 1023px) {
-    .lead__road {
-        top: calc((70.41*95%)/615);
-    }
-}
-
-@media (max-width: 767px) {
-    .lead__road {
-        top: calc((29.34*95%)/615);
-    }
 }

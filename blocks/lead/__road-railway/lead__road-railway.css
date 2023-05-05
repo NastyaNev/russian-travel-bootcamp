@@ -1,28 +1,38 @@
-.lead__road-railway  {
+.lead__road-railway_dashed {
+    stroke: rgb(226, 26, 26);
+    stroke-width: 1.5px;
+    stroke-dasharray: 5 10;
+    margin: 0 auto 0 auto;
+    fill: none;
+    stroke-linecap: round;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    margin: 0 auto 0 auto;
-    stroke: rgb(226, 26, 26);
+}
+
+.lead__road-railway  {
+    stroke-dasharray: 1380;
+    stroke-dashoffset: 1380;
+    animation: draw 20s alternate;
+    stroke: #e7e6e6;
     stroke-width: 2px;
-    stroke-dasharray: 5 10;
+    margin: 0 auto 0 auto;
     fill: none;
     stroke-linecap: round;
-    /* stroke-dashoffset: 100px; */
-    /* -webkit-animation: draw 20s; */
-    animation: draw 20s;
-    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 @keyframes draw {
-    from { stroke-dashoffset: 200px; } 
-    to   { stroke-dashoffset: 500px; } 
+    from {
+        stroke-dashoffset: 0;
+      }
+      to {
+        stroke-dashoffset: 1380;
+      }
   }
-
-  @media (max-width: 767px) {
-    .lead__road-railway {
-        top: 10px;
-    }
-}
