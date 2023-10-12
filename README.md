@@ -19,15 +19,15 @@
     
   * В частности, галерея с картинками создана при помощи свойств auto-fill и minmax() в сочетании с repeat().
    ```css
-.photo-grid {
-    display: grid;
-    gap: 16px;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    margin-top: 92px;
-}
-```
+   .photo-grid {
+       display: grid;
+       gap: 16px;
+       grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+       margin-top: 92px;
+   }
+   ```
   * Сайт создан по макету [Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0 "Ссылка на макет в Figma").
-  * К некоторым ссылкам применены эффекты наведения через псевдокласс :hover.
+  * К ссылкам применены эффекты наведения через псевдокласс :hover.
     
     <img src="https://github.com/NastyaNev/russian-travel-bootcamp/assets/129982615/f29e96aa-b4fb-40a7-81f8-50fc01654f57" height="250px" />
 
