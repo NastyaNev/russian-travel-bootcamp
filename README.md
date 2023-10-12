@@ -7,6 +7,7 @@
 Что было сделано:
   * Создана разметка сайта в html.
   * Реализована анимация главной картинки через CSS.
+  
     <img src="https://github.com/NastyaNev/russian-travel-bootcamp/assets/129982615/2c4219c4-ecb3-41b0-a8d5-f18f0678f9ae" height="300px" />
     
   * В вёрстке использован Grid Layout.
