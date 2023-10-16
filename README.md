@@ -4,6 +4,12 @@
 
 Ссылка на [**demo**](https://nastyanev.github.io/russian-travel-bootcamp/ "Ссылка на GitHub Pages").
 
+ ## *Стек*
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://img.shields.io/badge/HTML-%23000000?logo=html5&logoColor=%23FFFFFF%20&color=%23E34F26" alt="HTML5" height="25px"></a>
+<a href="https://www.w3.org/TR/CSS/" title="CSS3"><img src="https://img.shields.io/badge/CSS-%23000000?logo=css3&logoColor=%23FFFFFF%20&color=%231572B6" alt="CSS3" height="25px"></a>
+<a href="https://www.figma.com/" title="Figma"><img src="https://img.shields.io/badge/Figma-%23FFFFFF%20?logo=figma&logoColor=%23FFFFFF%20&color=%23F24E1E" alt="Figma" height="25px"></a>
+
 Россия богата не только природными ландшафтами, но и прекрасными историческими местами, достойными посещения. Будь то старинные церкви Пскова или северные пейзажи Карелии - каждый найдет для себя здесь много неизведанного и, конечно, невероятно интересного. Путешествия по России - это сайт, где собрана галерея уникальных мест нашей страны и историй путешественников.
 
 ***Что было сделано:***
